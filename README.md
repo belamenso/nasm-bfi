@@ -10,7 +10,7 @@ gcc-multilib
 ## Usage
 `make` to build.
 ```
-bfc ./hello_world.bf
+bfc examples/hello_world.bf
 ```
 ## Interpretation vs compilation
 On my machine (Ubuntu 16.04, Intel i7) compiled version of `hanoi.bf` executes in 6.24s while interpretation takes 25.15s.
