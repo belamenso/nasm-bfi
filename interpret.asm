@@ -1,9 +1,5 @@
 section .data
 
-; cat:
-; program: db ",+[-.,+]",0
-; hello world:
-
 tape: times 30000 db 0      ; bf tape
 ptr: dd 0                   ; current tape pointer
 
